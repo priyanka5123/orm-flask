@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Flask specific
+instance/  # Contains instance-specific configuration or data
+.pytest_cache/ # pytest cache directory
+.coverage  # Coverage report files
+htmlcov/   # HTML coverage reports
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Operating System and Editor specific files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment variables
+.env
